@@ -29,7 +29,7 @@ Then any time someone goes to a hostname or url that Nginx doesn't recognize, yo
 If you'd like to customize this project and create your own build, edit the code and...
 
 ```sh
-docker build -t default-backend .
+docker build -t noizy-default-backend .
 ```
 
 ## Run
@@ -37,7 +37,7 @@ docker build -t default-backend .
 To test locally:
 
 ```sh
-docker run -d -p 8080:8080 default-backend
+docker run -d -p 8080:8080 noizy-default-backend
 ```
 
 View at <http://localhost:8080>

@@ -1,10 +1,10 @@
 {
-  "name": "default-backend",
+  "name": "noizy-default-backend",
   "version": "1.0.0",
   "description": "A default backend (404 page) for nginx-ingress in Kubernetes",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jshimko/default-backend.git"
+    "url": "https://github.com/goto10hq/NoizyDefaultBackend"
   },
   "main": "server.js",
   "scripts": {
