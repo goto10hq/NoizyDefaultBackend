@@ -9,7 +9,7 @@ This is a custom default backend for [nginx-ingress](https://github.com/kubernet
 > - `/` that returns 404
 > - `/healthz` that returns 200
 
-<!-- ![404-example](content/example.gif) -->
+![404-example](noizy.gif)
 
 ## Usage on Kubernetes
 
