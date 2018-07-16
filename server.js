@@ -1,8 +1,10 @@
 const express = require('express');
 const app = express();
-const config = {
-  title: (!process.env.title ? '404' : process.env.title),
-  message: (!process.env.message ? '404' : process.env.message) 
+const machine = process.env['COMPUTERNAME'];
+const config = {  
+  title: (!machine ? '404' : '404 :: ' + machine),
+  message: '404',
+  message2: machine
 };
 
 app.set('view engine', 'ejs');
@@ -16,4 +18,4 @@ app.get('/healthz', (req, res) => {
   res.send('Healthy!').end();
 });
 
-app.listen(8080, () => console.log('App listening on port 8080'));
+app.listen(8080, () => console.log('Noizy listening on port 8080'));

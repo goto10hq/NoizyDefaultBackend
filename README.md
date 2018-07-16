@@ -13,12 +13,12 @@ This is a custom default backend for [nginx-ingress](https://github.com/kubernet
 
 ## Usage on Kubernetes
 
-The easiest way to use this is by using the [`nginx-ingress`](https://github.com/kubernetes/charts/tree/master/stable/nginx-ingress) Helm chart. When you deploy the chart, set the image values for the default backend Docker image to `goto10hq/noizy-default-backend:1.0.0`
+The easiest way to use this is by using the [`nginx-ingress`](https://github.com/kubernetes/charts/tree/master/stable/nginx-ingress) Helm chart. When you deploy the chart, set the image values for the default backend Docker image to `goto10hq/noizy-default-backend:1.1.0`
 
 ```
 helm install \
   --name nginx-ingress \
-  --set defaultBackend.image.repository=goto10hq/noizy-default-backend,defaultBackend.image.tag=1.0.0 \  
+  --set defaultBackend.image.repository=goto10hq/noizy-default-backend,defaultBackend.image.tag=1.1.0 \  
   stable/nginx-ingress
 ```
 
