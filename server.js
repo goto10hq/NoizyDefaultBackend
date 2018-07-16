@@ -1,10 +1,8 @@
 const express = require('express');
 const app = express();
-const machine = process.env['COMPUTERNAME'];
 const config = {  
-  title: (!machine ? '404' : '404 :: ' + machine),
-  message: '404',
-  message2: machine
+  title: 404,
+  message: '404',  
 };
 
 app.disable('x-powered-by');

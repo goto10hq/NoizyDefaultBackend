@@ -1,6 +1,6 @@
 {
   "name": "noizy-default-backend",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A default backend (404 page) for nginx-ingress in Kubernetes",
   "repository": {
     "type": "git",
