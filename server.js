@@ -7,6 +7,7 @@ const config = {
   message2: machine
 };
 
+app.disable('x-powered-by');
 app.set('view engine', 'ejs');
 app.use(express.static('public'));
 
