@@ -1,0 +1,22 @@
+{
+  "name": "default-backend",
+  "version": "1.0.0",
+  "description": "A default backend (404 page) for nginx-ingress in Kubernetes",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jshimko/default-backend.git"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Frohikey",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "5.1.0"
+  },
+  "dependencies": {
+    "express": "4.16.3",
+    "ejs": "2.6.1"
+  }
+}
